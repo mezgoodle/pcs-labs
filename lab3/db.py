@@ -40,4 +40,4 @@ if __name__ == "__main__":
         },
     ]
     result = cafes.insert_many(new_cafes)
-    result.inserted_ids
+    print(result.inserted_ids)
