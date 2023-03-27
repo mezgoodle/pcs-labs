@@ -2,8 +2,6 @@ version: "3"
 
 services:
   mongodb:
-    env_file:
-      - .env
     image: "mongo:latest"
     container_name: "mongodb"
     restart: always
