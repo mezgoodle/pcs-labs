@@ -10,7 +10,7 @@ def get_db():
     # get the mongodb connection string
     MONGODB_URI = os.environ.get("MONGODB_URI", "mongodb://localhost:27017")
     # connect to the mongodb
-    client = pymongo.MongoClient(MONGODB_URI)
+    client = pymongo.MongoClient(MONGODB_URI, username="root", password="example")
     # get the database
     db = client.example
     return db
