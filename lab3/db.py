@@ -1,5 +1,3 @@
-# connect to the mongodb in the docker container
-
 import datetime
 import os
 
